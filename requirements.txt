@@ -22,6 +22,7 @@ mcp-rs485
 mcp-smart-proxy
 mcp-snap7
 mcp-sqlite3
+mcp-server-mssql
 mcp-sympy
 mcp-telegram-bot
 mcp-z3-prover

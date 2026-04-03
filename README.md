@@ -27,6 +27,7 @@ A collection of MCP (Model Context Protocol) servers providing various utilities
 | [mcp-rpn](https://pypi.org/project/mcp-rpn/) | MCP server that exposes an RPN calculator |
 | [mcp-rs232](https://pypi.org/project/mcp-rs232/) | An MCP server that exposes RS232 serial port connectivity |
 | [mcp-rs485](https://pypi.org/project/mcp-rs485/) | An MCP server that exposes RS485 bus connectivity |
+| [mcp-server-mssql](https://pypi.org/project/mcp-server-mssql/) | MCP server exposing Microsoft SQL Server functionality |
 | [mcp-smart-proxy](https://pypi.org/project/mcp-smart-proxy/) | Token-efficient MCP server gateway with semantic tool search |
 | [mcp-snap7](https://pypi.org/project/mcp-snap7/) | MCP server for python-snap7, enabling MCP clients to interact with Siemens PLCs |
 | [mcp-sqlite3](https://pypi.org/project/mcp-sqlite3/) | MCP server exposing sqlite3 library functionality |
