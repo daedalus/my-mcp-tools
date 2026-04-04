@@ -1,3 +1,4 @@
+mcp-canbus
 mcp-cryptography
 mcp-ecdsa
 mcp-epochs
@@ -6,10 +7,14 @@ mcp-external-memory
 mcp-gmpy2
 mcp-hashlib
 mcp-llm-gateway
+mcp-lsp
 mcp-metar
+mcp-modelcontextprotocol-io
+mcp-mysql
 mcp-number-theory
 mcp-numpy
 mcp-oeis
+mcp-pcapy-ng
 mcp-parigp
 mcp-pyright
 mcp-python-bitcoinlib
@@ -19,11 +24,16 @@ mcp-rfc-editor
 mcp-rpn
 mcp-rs232
 mcp-rs485
+mcp-server-mssql
+mcp-server-nmap
+mcp-shodan
 mcp-smart-proxy
 mcp-snap7
 mcp-sqlite3
-mcp-server-mssql
+mcp-sqlserver
+mcp-stl
 mcp-sympy
 mcp-telegram-bot
+mcp-whatsapp
 mcp-z3-prover
 mcp-zabbix
