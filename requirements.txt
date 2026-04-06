@@ -17,7 +17,12 @@ mcp-oeis
 mcp-pcapy-ng
 mcp-parigp
 mcp-pyright
+mcp-pwntools
+mcp-pymetasploit3
 mcp-python-bitcoinlib
+mcp-psycopg2
+mcp-recon-ng
+mcp-smbmap
 mcp-redis-server
 mcp-reverse-engineering
 mcp-rfc-editor
@@ -30,7 +35,6 @@ mcp-shodan
 mcp-smart-proxy
 mcp-snap7
 mcp-sqlite3
-mcp-sqlserver
 mcp-stl
 mcp-sympy
 mcp-registry
