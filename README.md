@@ -14,11 +14,13 @@ A collection of MCP (Model Context Protocol) servers providing various utilities
 | [mcp-external-memory](https://pypi.org/project/mcp-external-memory/) | An MCP server that gives LLMs persistent, searchable semantic memory |
 | [mcp-gmpy2](https://pypi.org/project/mcp-gmpy2/) | MCP server exposing gmpy2 arbitrary precision arithmetic functions |
 | [mcp-hashlib](https://pypi.org/project/mcp-hashlib/) | An MCP server that exposes hashlib functionality |
+| [mcp-homeassistant](https://pypi.org/project/mcp-homeassistant/) | MCP server for Home Assistant integration |
 | [mcp-llm-gateway](https://pypi.org/project/mcp-llm-gateway/) | MCP-compatible LLM gateway that proxies completion requests to downstream OpenAI-compatible providers |
 | [mcp-lsp](https://pypi.org/project/mcp-lsp/) | MCP server that exposes pyright LSP functionality to AI assistants |
 | [mcp-metar](https://pypi.org/project/mcp-metar/) | MCP server for METAR/TAF aviation weather data |
 | [mcp-modelcontextprotocol-io](https://pypi.org/project/mcp-modelcontextprotocol-io/) | MCP server for modelcontextprotocol.io |
 | [mcp-mysql](https://pypi.org/project/mcp-mysql/) | MCP MySQL Server providing database knowledge and data query capability |
+| [mcp-mysql-connector](https://pypi.org/project/mcp-mysql-connector/) | MCP server for MySQL database connectivity |
 | [mcp-number-theory](https://pypi.org/project/mcp-number-theory/) | MCP server exposing number theory functions and factorization algorithms from RsaCtfTool |
 | [mcp-numpy](https://pypi.org/project/mcp-numpy/) | An MCP server that exposes NumPy functionality |
 | [mcp-oeis](https://pypi.org/project/mcp-oeis/) | MCP server for the OEIS (Online Encyclopedia of Integer Sequences) API |
@@ -26,7 +28,9 @@ A collection of MCP (Model Context Protocol) servers providing various utilities
 | [mcp-parigp](https://pypi.org/project/mcp-parigp/) | MCP server exposing cypari2 (PARI/GP) number theory library |
 | [mcp-pyright](https://pypi.org/project/mcp-pyright/) | MCP server that exposes Pyright language server functionality |
 | [mcp-python-bitcoinlib](https://pypi.org/project/mcp-python-bitcoinlib/) | An MCP server that exposes the python-bitcoinlib API |
+| [mcp-qiskit](https://pypi.org/project/mcp-qiskit/) | MCP server exposing Qiskit quantum computing functionality |
 | [mcp-redis-server](https://pypi.org/project/mcp-redis-server/) | MCP server that exposes Redis API to AI models |
+| [mcp-registry](https://pypi.org/project/mcp-registry/) | MCP server for interacting with the MCP Registry API |
 | [mcp-reverse-engineering](https://pypi.org/project/mcp-reverse-engineering/) | A sandboxed MCP tool for reverse engineering with multiple tool integrations |
 | [mcp-rfc-editor](https://pypi.org/project/mcp-rfc-editor/) | MCP server for editing RFC documents using rfc-editor library |
 | [mcp-rpn](https://pypi.org/project/mcp-rpn/) | MCP server that exposes an RPN calculator |
@@ -45,9 +49,26 @@ A collection of MCP (Model Context Protocol) servers providing various utilities
 | [mcp-whatsapp](https://pypi.org/project/mcp-whatsapp/) | MCP server exposing WhatsApp bot functionality with support for multiple adapters |
 | [mcp-z3-prover](https://pypi.org/project/mcp-z3-prover/) | MCP server exposing Z3 solver API |
 | [mcp-zabbix](https://pypi.org/project/mcp-zabbix/) | MCP server for Zabbix API - exposes all Zabbix API functionality via MCP |
+| [mcp-zmq](https://pypi.org/project/mcp-zmq/) | MCP server exposing ZMQ messaging functionality |
 
 ## Installation
 
 ```bash
 pip install -r requirements.txt
 ```
+
+## Updating the List
+
+To update the list of packages, run these commands:
+
+```bash
+# Get all mcp-* repos from daedalus user on GitHub
+curl -s "https://api.github.com/search/repositories?q=user:daedalus+mcp-&per_page=100" | python3 -c "import json,sys; d=json.load(sys.stdin); [print(r['name']) for r in d.get('items',[])]"
+
+# Check if packages exist on PyPI (returns 301 if exists)
+for pkg in mcp-pkgname; do code=$(curl -s -o /dev/null -w "%{http_code}" "https://pypi.org/p/$pkg/"); echo "$pkg: $code"; done
+
+# Get repo description from GitHub
+curl -s "https://api.github.com/repos/daedalus/mcp-pkgname" | python3 -c "import json,sys; d=json.load(sys.stdin); print(d.get('description','MCP server'))"
+```
+

@@ -33,6 +33,11 @@ mcp-sqlite3
 mcp-sqlserver
 mcp-stl
 mcp-sympy
+mcp-registry
+mcp-qiskit
+mcp-zmq
+mcp-homeassistant
+mcp-mysql-connector
 mcp-telegram-bot
 mcp-whatsapp
 mcp-z3-prover
