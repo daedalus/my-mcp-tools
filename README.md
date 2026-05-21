@@ -7,21 +7,24 @@ A collection of MCP (Model Context Protocol) servers providing various utilities
 | Package | Description |
 |---------|-------------|
 | [mcp-canbus](https://pypi.org/project/mcp-canbus/) | MCP server for CAN bus communication |
+| [mcp-capstone](https://pypi.org/project/mcp-capstone/) | MCP server exposing Capstone 5.0.7 disassembly framework |
 | [mcp-cryptography](https://pypi.org/project/mcp-cryptography/) | MCP server exposing cryptography library functionality |
+| [mcp-delonghi-ecam](https://pypi.org/project/mcp-delonghi-ecam/) | MCP server for DeLonghi ECAM espresso coffee machines via local network |
 | [mcp-ecdsa](https://pypi.org/project/mcp-ecdsa/) | MCP server for ECDSA cryptography |
 | [mcp-epochs](https://pypi.org/project/mcp-epochs/) | MCP tool that provides current Unix timestamp |
 | [mcp-exa](https://pypi.org/project/mcp-exa/) | MCP server exposing Exa websearch API |
 | [mcp-external-memory](https://pypi.org/project/mcp-external-memory/) | An MCP server that gives LLMs persistent, searchable semantic memory |
+| [mcp-gdbserver](https://pypi.org/project/mcp-gdbserver/) | MCP server for remote debugging with gdbserver |
 | [mcp-gmpy2](https://pypi.org/project/mcp-gmpy2/) | MCP server exposing gmpy2 arbitrary precision arithmetic functions |
 | [mcp-hashlib](https://pypi.org/project/mcp-hashlib/) | An MCP server that exposes hashlib functionality |
 | [mcp-homeassistant](https://pypi.org/project/mcp-homeassistant/) | MCP server for Home Assistant integration |
+| [mcp-kicad](https://pypi.org/project/mcp-kicad/) | MCP server exposing KiCad PCB Editor functionality via IPC API |
 | [mcp-llm-gateway](https://pypi.org/project/mcp-llm-gateway/) | MCP-compatible LLM gateway that proxies completion requests to downstream OpenAI-compatible providers |
-| [mcp-lsp](https://pypi.org/project/mcp-lsp/) | MCP server that exposes pyright LSP functionality to AI assistants |
+| [mcp-mdns](https://pypi.org/project/mcp-mdns/) | MCP server for mDNS (Multicast DNS) service discovery |
 | [mcp-metar](https://pypi.org/project/mcp-metar/) | MCP server for METAR/TAF aviation weather data |
-| [mcp-modelcontextprotocol-io](https://pypi.org/project/mcp-modelcontextprotocol-io/) | MCP server for modelcontextprotocol.io |
-| [mcp-mysql](https://pypi.org/project/mcp-mysql/) | MCP MySQL Server providing database knowledge and data query capability |
 | [mcp-mysql-connector](https://pypi.org/project/mcp-mysql-connector/) | MCP server for MySQL database connectivity |
 | [mcp-number-theory](https://pypi.org/project/mcp-number-theory/) | MCP server exposing number theory functions and factorization algorithms from RsaCtfTool |
+| [mcp-ntp-server](https://pypi.org/project/mcp-ntp-server/) | MCP server providing NTP time synchronization tools for AI agents |
 | [mcp-numpy](https://pypi.org/project/mcp-numpy/) | An MCP server that exposes NumPy functionality |
 | [mcp-oeis](https://pypi.org/project/mcp-oeis/) | MCP server for the OEIS (Online Encyclopedia of Integer Sequences) API |
 | [mcp-pcapy-ng](https://pypi.org/project/mcp-pcapy-ng/) | MCP server exposing pcapy-ng packet capture functionality |
@@ -35,7 +38,6 @@ A collection of MCP (Model Context Protocol) servers providing various utilities
 | [mcp-recon-ng](https://pypi.org/project/mcp-recon-ng/) | MCP server exposing full recon-ng OSINT framework functionality |
 | [mcp-redis-server](https://pypi.org/project/mcp-redis-server/) | MCP server that exposes Redis API to AI models |
 | [mcp-registry](https://pypi.org/project/mcp-registry/) | MCP server for interacting with the MCP Registry API |
-| [mcp-reverse-engineering](https://pypi.org/project/mcp-reverse-engineering/) | A sandboxed MCP tool for reverse engineering with multiple tool integrations |
 | [mcp-rfc-editor](https://pypi.org/project/mcp-rfc-editor/) | MCP server for editing RFC documents using rfc-editor library |
 | [mcp-rpn](https://pypi.org/project/mcp-rpn/) | MCP server that exposes an RPN calculator |
 | [mcp-rs232](https://pypi.org/project/mcp-rs232/) | An MCP server that exposes RS232 serial port connectivity |
