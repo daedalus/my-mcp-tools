@@ -20,6 +20,7 @@ A collection of MCP (Model Context Protocol) servers providing various utilities
 | [mcp-homeassistant](https://pypi.org/project/mcp-homeassistant/) | MCP server for Home Assistant integration |
 | [mcp-kicad](https://pypi.org/project/mcp-kicad/) | MCP server exposing KiCad PCB Editor functionality via IPC API |
 | [mcp-llm-gateway](https://pypi.org/project/mcp-llm-gateway/) | MCP-compatible LLM gateway that proxies completion requests to downstream OpenAI-compatible providers |
+| [mcp-manimgl](https://pypi.org/project/mcp-manimgl/) | MCP server exposing manimgl mathematical animation functionality |
 | [mcp-mdns](https://pypi.org/project/mcp-mdns/) | MCP server for mDNS (Multicast DNS) service discovery |
 | [mcp-metar](https://pypi.org/project/mcp-metar/) | MCP server for METAR/TAF aviation weather data |
 | [mcp-mysql-connector](https://pypi.org/project/mcp-mysql-connector/) | MCP server for MySQL database connectivity |
@@ -38,6 +39,7 @@ A collection of MCP (Model Context Protocol) servers providing various utilities
 | [mcp-recon-ng](https://pypi.org/project/mcp-recon-ng/) | MCP server exposing full recon-ng OSINT framework functionality |
 | [mcp-redis-server](https://pypi.org/project/mcp-redis-server/) | MCP server that exposes Redis API to AI models |
 | [mcp-registry](https://pypi.org/project/mcp-registry/) | MCP server for interacting with the MCP Registry API |
+| [mcp-reverse-engineering](https://pypi.org/project/mcp-reverse-engineering/) | Sandboxed MCP tool for reverse engineering with security restrictions |
 | [mcp-rfc-editor](https://pypi.org/project/mcp-rfc-editor/) | MCP server for editing RFC documents using rfc-editor library |
 | [mcp-rpn](https://pypi.org/project/mcp-rpn/) | MCP server that exposes an RPN calculator |
 | [mcp-rs232](https://pypi.org/project/mcp-rs232/) | An MCP server that exposes RS232 serial port connectivity |
